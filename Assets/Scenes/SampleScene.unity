@@ -572,6 +572,10 @@ PrefabInstance:
       value: Sealy McFlumpkins
       objectReference: {fileID: 0}
     - target: {fileID: 8165306671259144724, guid: 2b966131f7de543fdb9ecd88deb512fe, type: 3}
+      propertyPath: xOffset
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 8165306671259144724, guid: 2b966131f7de543fdb9ecd88deb512fe, type: 3}
       propertyPath: movement.m_Name
       value: Movement
       objectReference: {fileID: 0}
