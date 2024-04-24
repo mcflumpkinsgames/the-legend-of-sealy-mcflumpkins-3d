@@ -368,7 +368,7 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0013975187, y: 0.09208899, z: 0.00012923786, w: 0.99574983}
-  m_LocalPosition: {x: -0.88, y: 0.86, z: -3.0999985}
+  m_LocalPosition: {x: -0.88, y: 0.195, z: -3.0999985}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -572,12 +572,32 @@ PrefabInstance:
       value: Sealy McFlumpkins
       objectReference: {fileID: 0}
     - target: {fileID: 8165306671259144724, guid: 2b966131f7de543fdb9ecd88deb512fe, type: 3}
+      propertyPath: xRange
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8165306671259144724, guid: 2b966131f7de543fdb9ecd88deb512fe, type: 3}
       propertyPath: xOffset
       value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 8165306671259144724, guid: 2b966131f7de543fdb9ecd88deb512fe, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8165306671259144724, guid: 2b966131f7de543fdb9ecd88deb512fe, type: 3}
+      propertyPath: controlSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8165306671259144724, guid: 2b966131f7de543fdb9ecd88deb512fe, type: 3}
       propertyPath: movement.m_Name
       value: Movement
+      objectReference: {fileID: 0}
+    - target: {fileID: 8165306671259144724, guid: 2b966131f7de543fdb9ecd88deb512fe, type: 3}
+      propertyPath: controlPitchFactor
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8165306671259144724, guid: 2b966131f7de543fdb9ecd88deb512fe, type: 3}
+      propertyPath: positionPitchFactor
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 8165306671259144724, guid: 2b966131f7de543fdb9ecd88deb512fe, type: 3}
       propertyPath: movement.m_SingletonActionBindings.Array.size
