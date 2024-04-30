@@ -178,10 +178,72 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &375037502
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1101689563102332003, guid: 0bbbae569c9a4437aad0c5ebb07cef55, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 432.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101689563102332003, guid: 0bbbae569c9a4437aad0c5ebb07cef55, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -40.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101689563102332003, guid: 0bbbae569c9a4437aad0c5ebb07cef55, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 314.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101689563102332003, guid: 0bbbae569c9a4437aad0c5ebb07cef55, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.797202
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101689563102332003, guid: 0bbbae569c9a4437aad0c5ebb07cef55, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101689563102332003, guid: 0bbbae569c9a4437aad0c5ebb07cef55, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.60371274
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101689563102332003, guid: 0bbbae569c9a4437aad0c5ebb07cef55, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101689563102332003, guid: 0bbbae569c9a4437aad0c5ebb07cef55, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101689563102332003, guid: 0bbbae569c9a4437aad0c5ebb07cef55, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 74.273
+      objectReference: {fileID: 0}
+    - target: {fileID: 1101689563102332003, guid: 0bbbae569c9a4437aad0c5ebb07cef55, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8221658115236504812, guid: 0bbbae569c9a4437aad0c5ebb07cef55, type: 3}
+      propertyPath: m_Name
+      value: Orca (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0bbbae569c9a4437aad0c5ebb07cef55, type: 3}
 --- !u!95 &615818730 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 3335212875271182609, guid: 0bbbae569c9a4437aad0c5ebb07cef55, type: 3}
   m_PrefabInstance: {fileID: 7739281933321749194}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &657644419 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3335212875271182609, guid: 0bbbae569c9a4437aad0c5ebb07cef55, type: 3}
+  m_PrefabInstance: {fileID: 375037502}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
@@ -341,7 +403,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 70
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -476,15 +538,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 362816143633967943, guid: 2b966131f7de543fdb9ecd88deb512fe, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 362816143633967943, guid: 2b966131f7de543fdb9ecd88deb512fe, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 362816143633967943, guid: 2b966131f7de543fdb9ecd88deb512fe, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 362816143633967943, guid: 2b966131f7de543fdb9ecd88deb512fe, type: 3}
       propertyPath: m_LocalRotation.w
@@ -515,6 +577,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 760906782063056444, guid: 2b966131f7de543fdb9ecd88deb512fe, type: 3}
+      propertyPath: m_SceneBindings.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 760906782063056444, guid: 2b966131f7de543fdb9ecd88deb512fe, type: 3}
+      propertyPath: m_SceneBindings.Array.data[2].key
+      value: 
+      objectReference: {fileID: 5546687569780178105, guid: de97ee282c02c4dc8ab1c33e17ece35e, type: 2}
+    - target: {fileID: 760906782063056444, guid: 2b966131f7de543fdb9ecd88deb512fe, type: 3}
       propertyPath: m_SceneBindings.Array.data[0].value
       value: 
       objectReference: {fileID: 259479727}
@@ -522,6 +592,10 @@ PrefabInstance:
       propertyPath: m_SceneBindings.Array.data[1].value
       value: 
       objectReference: {fileID: 615818730}
+    - target: {fileID: 760906782063056444, guid: 2b966131f7de543fdb9ecd88deb512fe, type: 3}
+      propertyPath: m_SceneBindings.Array.data[2].value
+      value: 
+      objectReference: {fileID: 657644419}
     - target: {fileID: 7135290482583882646, guid: 2b966131f7de543fdb9ecd88deb512fe, type: 3}
       propertyPath: m_Name
       value: Sealy McFlumpkins
@@ -596,3 +670,4 @@ SceneRoots:
   - {fileID: 2113453083}
   - {fileID: 259479726}
   - {fileID: 7739281933321749194}
+  - {fileID: 375037502}
