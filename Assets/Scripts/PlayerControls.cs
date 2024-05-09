@@ -38,6 +38,7 @@ public class PlayerControls : MonoBehaviour
     {
         ProcessTranslation();
         ProcessRotation();
+        ProcessFiring();
     }
 
     private void ProcessTranslation()
@@ -64,5 +65,13 @@ public class PlayerControls : MonoBehaviour
         float yaw = transform.localPosition.x * positionYawFactor;
         float roll = xMovement * controlRollFactor;
         transform.localRotation = Quaternion.Euler(pitch, yaw, roll);
+    }
+
+    private void ProcessFiring()
+    {
+        // if pushing fire button
+        // then print "pew pew"
+        // else
+        // don't
     }
 }
